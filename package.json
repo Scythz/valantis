@@ -1,5 +1,6 @@
 {
   "name": "valantis-app",
+  "proxy": "http://api.valantis.store:40000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
