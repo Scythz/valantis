@@ -1,0 +1,12 @@
+/* ProductCard.module.css */
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Подъем карточки при наведении */
+}
+
+.cardHeader {
+    background: #e8b7b7; /* Стиль для заголовка карточки */
+}

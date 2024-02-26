@@ -1,0 +1,12 @@
+/* Nav.css */
+.nav-animate {
+    transition: all 0.3s ease-in-out;
+}
+
+.brand-animate img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.brand-animate:hover img {
+    transform: scale(1.1); /* Увеличение логотипа при наведении */
+}

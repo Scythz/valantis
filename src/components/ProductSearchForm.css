@@ -1,0 +1,14 @@
+/* ProductSearchForm.css */
+.search-form-animate input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #007bff; /* Подсветка при фокусе */
+}
+
+.button-animate {
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+}
+
+.button-animate:hover {
+    background-color: #0056b3; /* Изменение цвета кнопки при наведении */
+    transform: scale(1.05); /* Увеличение кнопки при наведении */
+}
